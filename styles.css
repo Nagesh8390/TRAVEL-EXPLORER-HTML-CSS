@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0074D9;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color:gold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #7FDBFF;
+    color: #001f3f;
+}
+
+.features,.destinations, .about, .contact {
+    padding: 20px;
+    list-style-position: inside;
+    text-align: center;
+
+}
+
+footer {
+    background: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
